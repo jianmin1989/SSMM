@@ -7,7 +7,7 @@ A spatiotemporal shape-matching model for fusing MODIS and HLS data
 	
 
 	This code is developed by Dr. Jianmin Wang and Xiaoyang Zhang, South Dakota State University. 
-	Copyright Dr. Xiaoyang Zhang
+	Copyright Dr. Xiaoyang Zhang and Jianmin Wang
  	Use of this code for commercial purposes is not permitted. 
 	Contact Xiaoyang.Zhang@sdstate.edu or Jianmin.wang@sdstate.edu 
 	for more information and updates of this code
