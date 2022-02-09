@@ -1,0 +1,16 @@
+Run the code with "HLS_VIIRS_shape_fusion.exe input.txt"
+"input_example.txt" is provided as an example of input.txt. 
+Thirteen input parameters are required in input.txt. 
+1. output file name (.gz file)
+2. HLS VI file name templet (.gz file)
+3. value to be considered as FILL (in each image)
+4. length of the VI time series (the same for HLS and VIIRS)
+5. x (map coordinates) of upperleft corner of the HLS image in UTM projection
+6. y (map coordinates) of upperleft corner of the HLS image in UTM projection
+7. UTM zone
+8. VIIRS VI file name templet (.gz file)
+9. (N) number of VIIRS tiles for fusing the target HLS image (ususally 1, but sometimes 2 or 4)
+10. array of horizontal number of tiles (N elements)
+11. array of vertical number of tiles (N elements)
+12. half window size for searching (number of VIIRS pixels)
+13. array of dates for the VI time series
